@@ -15,7 +15,6 @@ const MyWork = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    // Create GSAP timeline
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: containerRef.current,
@@ -27,7 +26,6 @@ const MyWork = () => {
       },
     });
 
-    // Add animations to the timeline for horizontal sliding
     tl.fromTo(
       "#sliderImg1",
       { x: "0", y: "50%", rotate: "0" },

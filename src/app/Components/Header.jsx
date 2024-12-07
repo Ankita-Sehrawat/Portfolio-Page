@@ -17,7 +17,7 @@ const Header = () => {
         <div className="pt-[34px] pb-9 flex items-center justify-between">
           <div className="md:w-3/12 min-[1130px]:w-2/12">
             <a className="text-xl sm:text-[32px] font-normal text-white " href="#">
-              Vikas Boora
+             Ankita
             </a>
           </div>
           <div

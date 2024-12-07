@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import vikash_img from "../../../public/assets/images/png/Vikash_img.png";
+import ankita_img from "../../../public/assets/images/png/ankita.jpg";
 import {
   DownloadIcon,
   GithubIcon,
@@ -19,10 +20,10 @@ const Hero = () => {
           <div className="w-full mt-4 md:mt-0 md:w-1/2 text-center sm:text-start ">
             <div>
               <p className="font-normal text-base md:text-xl text-white">
-                Full Stack Developer
+               Front End Developer
               </p>
               <h1 className="font-semibold text-4xl md:text-[54px] lg:text-7xl xl:text-[80px] text-white md:!leading-[50px] lg:!leading-[90px] mt-1">
-                Hello I’ m <span className="text-[#15FFEA]">Vikas Boora</span>
+                Hello I'm <span className="text-[#15FFEA]">Ankita Sehrawat</span>
               </h1>
               <p className="font-normal text-base md:text-lg text-white/80 pt-4 pb-10 md:py-[30px]">
                 Lorem ipsum dolor sit amet consectetur. At augue dignissim eu
@@ -42,17 +43,17 @@ const Hero = () => {
                     <GithubIcon />
                   </span>
                 </a>
-                <a target="_blank" href="https://www.github.com/">
+                <a target="_blank" href="https://www.youtube.com/">
                   <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10 duration-500 hover:-translate-y-3 hover:bg-[#15FFEA] socialHover ">
                     <YouTubeIcon />
                   </span>
                 </a>
-                <a target="_blank" href="https://www.github.com/">
+                <a target="_blank" href="https://www.x.com/">
                   <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10 duration-500 hover:-translate-y-3 hover:bg-[#15FFEA] socialHover ">
                     <TwitterIcon />
                   </span>
                 </a>
-                <a target="_blank" href="https://www.github.com/">
+                <a target="_blank" href="https://www.linkedin.com/">
                   <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10 duration-500 hover:-translate-y-3 hover:bg-[#15FFEA] socialHover ">
                     <LinkdinIcon />
                   </span>
@@ -66,10 +67,10 @@ const Hero = () => {
               <HeroSecElp />
             </div>
 
-            <div className=" after:absolute max-[400px]:w-[280px] max-[400px]:h-[280px] w-[360px] h-[360px] lg:w-[488px] lg:h-[488px] relative after:w-full after:h-full after:animate-spin duration-[20s] after:duration-[20s]  rounded-[700px] after:rounded-[700px] after:border-[4px] after:border-dashed after:border-[#15FFEA] shadow-[-5px_5px_40px_0px_#15FFEA66]  after:top-0 after:left-0 overflow-hidden">
+            <div className=" after:absolute max-[400px]:w-[280px] max-[400px]:h-[280px] w-[360px] h-[360px] lg:w-[488px] lg:h-[488px] relative after:w-full after:h-full after:animate-spin duration-[2s] after:duration-[2s]  rounded-[700px] after:rounded-[700px] after:border-[4px] after:border-dotted after:border-[#15FFEA] shadow-[-5px_5px_40px_0px_#15FFEA66]  after:top-0 after:left-0 overflow-hidden">
               <Image
-                className=" w-[344px] h-[478px] object-cover object-center m-auto "
-                src={vikash_img}
+                className=" w-full h-[490px] object-cover max-sm:object-center object-top m-auto "
+                src={ankita_img}
                 alt="img"
               />
             </div>
@@ -78,7 +79,7 @@ const Hero = () => {
 
 
         {/* ### anylytics ### */}
-        <div className="w-full lg:w-[90%] mx-auto flex flex-col min-[400px]:flex-row flex-wrap gap-5 md:gap-16  lg:gap-[100px] items-center justify-center sm:justify-between md:justify-center mt-[70px] mb-8 ">
+        <div className="w-full lg:w-[90%] mx-auto flex flex-col min-[400px]:flex-row flex-wrap gap-5 md:gap-16  xl:gap-[100px] items-center justify-center sm:justify-between md:justify-center mt-[70px] mb-8 ">
           {HeroSecArr.map((item, i) => {
             return (
               <div
