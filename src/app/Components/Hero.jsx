@@ -22,7 +22,7 @@ const Hero = () => {
                 Front End Web Developer
               </p>
               <h1 className="font-semibold text-4xl md:text-[54px] lg:text-7xl xl:text-[80px] text-white md:!leading-[50px] lg:!leading-[90px] mt-1">
-                Hello I'm <span className="text-[#15FFEA]">Ankita Sehrawat</span>
+                Hello I am <span className="text-[#15FFEA]">Ankita Sehrawat</span>
               </h1>
               <p className="font-normal text-base md:text-lg text-white/80 pt-4 pb-10 md:py-[30px]">
                 Front-End Developer with a proven track record of enhancing website
@@ -66,6 +66,7 @@ const Hero = () => {
                 className=" w-full h-[490px] object-cover max-sm:object-center object-top m-auto "
                 src={ankita_img}
                 alt="img"
+                // priority={false}
               />
             </div>
           </div>
@@ -87,7 +88,7 @@ const Hero = () => {
                   {item.text}
                 </p>
               </div>
-            );
+            )
           })}
         </div>
       </div>

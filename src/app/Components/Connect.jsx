@@ -24,7 +24,6 @@ const Connect = () => {
         setIsSubmitting(true);
         setMessage("");
 
-        // EmailJS Service Details
         const serviceId = "service_1jxk92a";
         const templateId = "template_cklirrh";
         const publicKey = "gnK8XPd3VdHcNbKGl";
@@ -63,8 +62,8 @@ const Connect = () => {
                 <div className='absolute bottom-0 left-[70px] hidden lg:block -z-10'><FooterBottomElp /></div>
                 <div className='absolute top-[20%] right-0 hidden lg:block -z-10'><FooterRightElp /></div>
 
-                <h1 className='text-[35px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-normal text-white mb-2 sm:mb-[18px]'>Let's Connect!</h1>
-                <p className='text-lg font-normal text-[#FFFFFFCC] lg:w-[663px]'>Feel free to reach out for collaborations, projects, or just to say hi. I'm always open to new opportunities and interesting conversations. Drop me a message and I'll get back to you as soon as possible!</p>
+                <h1 className='text-[35px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-normal text-white mb-2 sm:mb-[18px]'>Let&apos;s Connect!</h1>
+                <p className='text-lg font-normal text-[#FFFFFFCC] lg:w-[663px]'>Feel free to reach out for collaborations, projects, or just to say hi. I am always open to new opportunities and interesting conversations. Drop me a message and I&apos;ll get back to you as soon as possible!</p>
 
                 <form onSubmit={submitConnectForm} className='flex flex-col sm:flex-row sm:mx-2.5 xl:-mx-[25px] mt-10 lg:mt-[99px]'>
                     <div className='w-full sm:w-6/12 sm:px-2.5 xl:px-[25px]'>
