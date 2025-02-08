@@ -8,14 +8,13 @@ const CardExp = () => {
       <h1 className="text-lg sm:text-[32px] font-semibold text-white mb-2 sm:mb-5 ">
         My Experience
       </h1>
-      <p className="text-xs sm:text-base  font-normal text-white/80 lg:w-[534px] tracking-[3px] pb-5 lg:pb-11 ">
-        Lorem ipsum dolor sit amet consectetur. Aliquet elit dolorLorem ipsum
-        dolor sit amet consectetur. Aliquet elit dolor..
+      <p className="text-xs sm:text-base  font-normal text-white/80  tracking-[3px] pb-5 lg:pb-11 ">
+       I have gained experience of almost a year as i have worked as a Front End Web Developer at Hexabirds Private Limited. 
       </p>
-      <div className="flex flex-wrap -mx-[10px] justify-center max-lg:h-[250px] max-lg:overflow-y-scroll ">
+      <div className="flex flex-wrap -mx-[10px] max-lg:h-[250px] max-lg:overflow-y-scroll ">
         {ExpCard.map((item, index) => {
           return (
-            <div key={index} className="w-full sm:w-10/12 lg:w-6/12 px-[10px] mb-5">
+            <div key={index} className="w-full sm:w-10/12  px-[10px] mb-5">
               <div className="bg-[#313131] rounded-[10px] p-5   ">
                 <p className="text-sm sm:text-lg font-normal text-[#15FFEA]  ">
                   {item.Year}

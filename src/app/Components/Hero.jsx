@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import vikash_img from "../../../public/assets/images/png/Vikash_img.png";
 import ankita_img from "../../../public/assets/images/png/ankita.jpg";
 import {
   DownloadIcon,
@@ -20,40 +19,35 @@ const Hero = () => {
           <div className="w-full mt-4 md:mt-0 md:w-1/2 text-center sm:text-start ">
             <div>
               <p className="font-normal text-base md:text-xl text-white">
-               Front End Developer
+                Front End Web Developer
               </p>
               <h1 className="font-semibold text-4xl md:text-[54px] lg:text-7xl xl:text-[80px] text-white md:!leading-[50px] lg:!leading-[90px] mt-1">
                 Hello I'm <span className="text-[#15FFEA]">Ankita Sehrawat</span>
               </h1>
               <p className="font-normal text-base md:text-lg text-white/80 pt-4 pb-10 md:py-[30px]">
-                Lorem ipsum dolor sit amet consectetur. At augue dignissim eu
-                posuere non mi dictum lacus praesent. Aliquet elit r dolor.
+                Front-End Developer with a proven track record of enhancing website
+                scalability and performance. Skilled in HTML, CSS, JavaScript, and React.js,
+                with a focus on creating user-friendly interfaces. Successfully collaborated with
+                a team to boost user engagement and implemented dynamic web solutions.
+                Recognized for resolving bugs and optimizing performance across multiple web
+                pages. Eager to apply expertise and drive innovation in web development,
+                while contributing effectively to collaborative projects.
               </p>
             </div>
             <div className="flex max-[420px]:flex-col gap-5 lg:gap-[29px] justify-center sm:justify-start  ">
-              <button className=" border border-[#15FFEA] p-[10px] min-[850px]:p-[10px_20px] flex items-center justify-center gap-1 min-[850px]:gap-[10px] rounded-[50px] max-sm:w-[200px] max-[460px]:m-auto duration-300 hover:duration-300 hover:bg-[#15FFEA]  group ">
+              <a href="/assets/cv/Ankita's-Resume.pdf" download='Ankita-Sehrawat-cv.pdf' className=" border border-[#15FFEA] p-[10px] min-[850px]:p-[10px_20px] flex items-center justify-center gap-1 min-[850px]:gap-[10px] rounded-[50px] max-sm:w-[200px] max-[460px]:m-auto duration-300 hover:duration-300 hover:bg-[#15FFEA]  group ">
                 <p className="text-center uppercase text-[#15FFEA] text-sm min-[850px]:text-base group-hover:text-black ">
                   Download cv
                 </p>
                 <DownloadIcon />
-              </button>
-              <div className="flex max-sm:justify-center gap-2 lg:gap-5">
-                <a target="_blank" href="https://www.github.com/">
+              </a>
+              <div className="flex max-sm:justify-center gap-5">
+                <a target="_blank" href="https://github.com/Ankita-Sehrawat/">
                   <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10 duration-500 hover:-translate-y-3 hover:bg-[#15FFEA] socialHover ">
                     <GithubIcon />
                   </span>
                 </a>
-                <a target="_blank" href="https://www.youtube.com/">
-                  <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10 duration-500 hover:-translate-y-3 hover:bg-[#15FFEA] socialHover ">
-                    <YouTubeIcon />
-                  </span>
-                </a>
-                <a target="_blank" href="https://www.x.com/">
-                  <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10 duration-500 hover:-translate-y-3 hover:bg-[#15FFEA] socialHover ">
-                    <TwitterIcon />
-                  </span>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/">
+                <a target="_blank" href="https://www.linkedin.com/in/ankita-sehrawat-361574341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                   <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10 duration-500 hover:-translate-y-3 hover:bg-[#15FFEA] socialHover ">
                     <LinkdinIcon />
                   </span>
@@ -84,7 +78,7 @@ const Hero = () => {
             return (
               <div
                 key={i}
-                className="  min-[440px]:w-5/12 sm:w-2/12 flex  gap-[15px] items-center "
+                className="  min-[440px]:w-5/12 sm:w-3/12 flex  gap-[15px] items-center "
               >
                 <h1 className=" ff_roadRage text-5xl lg:text-[64px] font-normal text-[#FFFFFFCC] ">
                   {" "}

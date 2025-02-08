@@ -5,6 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
   font-family: "Outfit", sans-serif;
 }
@@ -39,8 +40,25 @@ body {
   right: 0px;
   z-index: 1;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
   display: none;
+}
+
+.slick-next {
+  display: none !important;
+}
+
+.slick-prev {
+  display: none !important;
+}
+
+.slick-dots {
+  bottom: -50px !important;
+}
+
+.slick-dots li button:before {
+  color: white !important;
 }
 
 @media (max-width:640px) {
@@ -55,5 +73,3 @@ body {
     /* z-index: 1; */
   }
 }
-
-

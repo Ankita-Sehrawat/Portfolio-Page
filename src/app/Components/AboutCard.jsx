@@ -4,9 +4,8 @@ const AboutCard = () => {
     return (
         <div>
             <h1 className="text-lg sm:text-[32px] font-semibold text-white mb-2 sm:mb-5">About Me</h1>
-            <p className="text-xs sm:text-base font-normal text-white/80 lg:w-[534px] tracking-[3px] pb-5 lg:pb-11 ">
-                Lorem ipsum dolor sit amet consectetur. Aliquet elit dolorLorem ipsum
-                dolor sit amet consectetur. Aliquet elit dolor..
+            <p className="text-xs sm:text-base font-normal text-white/80  tracking-[3px] pb-5 lg:pb-11 ">
+                I am a  Front-End Developer skilled  in HTML, CSS, JavaScript, and React.js, with a focus on creating user-friendly interfaces. Successfully collaborated with a team to boost user engagement and implemented dynamic web solutions.
             </p>
 
             <div className='flex gap-6 flex-col lg:flex-row xl:justify-between  lg:py-5 max-lg:h-[250px] max-lg:overflow-y-scroll'>
@@ -18,8 +17,8 @@ const AboutCard = () => {
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Freelance</p>
                     </div>
                     <div className=' flex flex-col gap-[30px]'>
-                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Vikas Boora</p>
-                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>10+ Years</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Ankita </p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>1 Year</p>
                         <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Indian</p>
                         <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Available</p>
                     </div>
@@ -29,14 +28,14 @@ const AboutCard = () => {
                     <div className='flex flex-col gap-[30px] '>
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Phone</p>
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Email</p>
-                        <p className='text-white font-normal text-lg tracking-[2px]  '>Skype</p>
+                        <p className='text-white font-normal text-lg tracking-[2px]  '>Location</p>
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Language</p>
                     </div>
                     <div className='flex flex-col gap-[30px]'>
-                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>+91 95478-45687</p>
-                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[1px]  '>Vikasboora@gmail.com</p>
-                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Vikas.00</p>
-                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>English, Hindi</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>+91 9350471322</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[1px]  '>sehrawatankita1@gmail.com</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Hisar,Haryana</p>
+                        <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Hindi and English</p>
                     </div>
                 </div>
 

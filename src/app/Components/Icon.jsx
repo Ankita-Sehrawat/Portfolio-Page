@@ -80,6 +80,37 @@ export const SpringBorder = () => {
   );
 };
 
+export const SkillCourseImg9 = () => {
+  return (
+    <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M54.0042 15.1396V49.8063C54.0042 51.016 53.6521 52.0993 52.9479 53.0563C52.2437 53.9951 51.2958 54.6271 50.1042 54.9521L34.5854 59.4208C34.3688 59.475 34.125 59.5292 33.8542 59.5833H33.2583C32.6625 59.5833 32.1208 59.5021 31.6333 59.3396C31.1458 59.1771 30.6493 58.9604 30.1438 58.6896L19.9875 52.9479C19.6083 52.7313 19.3104 52.4514 19.0938 52.1083C18.8771 51.7653 18.7688 51.3771 18.7688 50.9438C18.7688 50.2938 19.0035 49.7431 19.4729 49.2917C19.9243 48.8403 20.475 48.6146 21.125 48.6146H34.2875V16.6292L24.375 20.15C23.5986 20.4389 22.9667 20.9444 22.4792 21.6667C21.9917 22.3528 21.7479 23.1201 21.7479 23.9688V42.1958C21.7479 42.9542 21.5583 43.6403 21.1792 44.2542C20.8181 44.8681 20.3035 45.3556 19.6354 45.7167L14.9771 48.2625C14.5438 48.4972 14.1104 48.6146 13.6771 48.6146C12.9368 48.6146 12.3049 48.3528 11.7813 47.8292C11.2576 47.3056 10.9958 46.6646 10.9958 45.9063V20.2312C10.9958 19.2924 11.2396 18.4167 11.7271 17.6042C12.2326 16.7014 12.8917 16.0153 13.7042 15.5458L30.3875 6.06667C30.7667 5.85 31.1729 5.6875 31.6063 5.57917C32.0396 5.47083 32.4729 5.41667 32.9063 5.41667C33.2132 5.41667 33.4931 5.44375 33.7458 5.49792C33.9986 5.53403 34.2785 5.59722 34.5854 5.6875L50.1042 9.99375C50.7 10.1562 51.2326 10.4 51.7021 10.725C52.1715 11.05 52.5778 11.4382 52.9208 11.8896C53.2819 12.359 53.5528 12.8646 53.7333 13.4062C53.9139 13.966 54.0042 14.5438 54.0042 15.1396ZM50.4292 49.8063V15.1396C50.4292 14.7243 50.3208 14.3632 50.1042 14.0563C49.8333 13.7132 49.4993 13.5056 49.1021 13.4333L41.4646 11.3208C40.9049 11.1583 40.309 10.9958 39.6771 10.8333C39.0813 10.6347 38.4944 10.4632 37.9167 10.3187V54.7354L49.1021 51.4583C49.4993 51.3861 49.8333 51.1965 50.1042 50.8896C50.3208 50.5826 50.4292 50.2215 50.4292 49.8063Z" fill="white" />
+    </svg>
+  )
+}
+export const SkillCourseImg10 = () => {
+  return (
+    <svg width="65" height="65" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <mask id="mask0_7_12" style={{ maskType: 'luminance' }}  maskUnits="userSpaceOnUse" x="0" y="0" width="65" height="65">
+        <path d="M0 0H65V65H0V0Z" fill="white" />
+      </mask>
+      <g mask="url(#mask0_7_12)">
+        <path d="M45.0396 44.8581C47.4365 44.609 49.2565 42.5208 49.1752 40.0156C49.1347 38.8115 48.63 37.6697 47.7668 36.8292C46.9036 35.9887 45.7487 35.5147 44.544 35.5062H44.376C41.8113 35.5875 39.826 37.7596 39.9073 40.3487C39.994 41.6027 40.4896 42.686 41.2344 43.4362C38.4204 49.0344 34.1196 53.124 27.6656 56.5473C23.2835 58.8873 18.7335 59.7215 14.1862 59.1365C10.4623 58.6354 7.56708 56.9644 5.74708 54.21C3.10104 50.1204 2.85458 45.6923 5.08625 41.2669C6.65708 38.0954 9.14063 35.7554 10.7115 34.5881C10.2855 33.186 9.92665 31.7643 9.63625 30.3279C-2.35896 39.0975 -1.11583 50.9546 2.51875 56.55C5.24875 60.7262 10.79 63.3154 16.9135 63.3154C18.5852 63.3253 20.2517 63.1288 21.8752 62.7304C32.4648 60.645 40.4869 54.2967 45.0369 44.8608M59.5942 34.5069C53.3081 27.0752 44.0429 22.9829 33.456 22.9829H32.1317C31.7538 22.2317 31.1751 21.5999 30.4599 21.1577C29.7447 20.7155 28.9209 20.4801 28.08 20.4777H27.9121C25.35 20.5617 23.3621 22.7337 23.446 25.3229C23.5273 27.8281 25.5965 29.8296 28.0773 29.8296H28.2452C29.1189 29.7847 29.9624 29.4947 30.6789 28.9927C31.3955 28.4907 31.9562 27.7971 32.2969 26.9912H33.7865C40.0725 26.9912 46.0281 28.8275 51.4042 32.4187C55.5398 35.1758 58.519 38.7644 60.171 43.1085C61.5794 46.6131 61.4981 50.0365 60.0085 52.9615C57.6902 57.3869 53.8038 59.8081 48.6742 59.8081C45.3673 59.8081 42.2229 58.806 40.5681 58.0531C39.3777 59.1155 38.1357 60.1188 36.8469 61.0594C40.4029 62.7304 44.0429 63.6485 47.5177 63.6485C55.4585 63.6485 61.3302 59.2231 63.5646 54.7977C65.9615 49.9552 65.7963 41.6054 59.5942 34.5069ZM17.5771 46.2773C17.6583 48.7825 19.7275 50.7867 22.2083 50.7867H22.3735C24.9383 50.7054 26.9235 48.5333 26.8423 45.9442C26.8018 44.74 26.2971 43.5982 25.4339 42.7578C24.5707 41.9173 23.4158 41.4432 22.211 41.4348H22.0431C21.8463 41.4193 21.6485 41.447 21.4635 41.516C18.0727 35.8394 16.6671 29.6617 17.1627 22.9802C17.4931 17.9698 19.1479 13.6283 22.0431 10.0371C24.4427 6.94958 29.074 5.44646 32.2183 5.3625C40.9852 5.19458 44.7065 16.2175 44.9556 20.6429C46.0308 20.8921 47.8508 21.4771 49.0913 21.8942C48.0973 8.36875 39.8288 1.35416 31.8852 1.35416C24.4427 1.35416 17.5771 6.78166 14.8471 14.7983C11.0419 25.4854 13.5227 35.7554 18.1567 43.856C17.7423 44.441 17.4931 45.3592 17.5771 46.2773Z" fill="white" />
+      </g>
+    </svg>
+  )
+}
+
+// export const SkillCourseImg11=()=>{
+//   return(
+    
+//   )
+// }
+// export const SkillCourseImg12=()=>{
+//   return(
+
+//   )
+// }
+
 export const ServiceElp1 = () => {
   return (
     <svg
@@ -384,53 +415,53 @@ export function MyWorkElp() {
 export function FooterRightElp() {
   return (
     <svg width="190" height="241" viewBox="0 0 190 241" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g filter="url(#filter0_d_123_1383)">
-    <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1383)" shapeRendering="crispEdges"/>
-    </g>
-    <defs>
-    <filter id="filter0_d_123_1383" x="0.0128174" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
-    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-    <feOffset dy="21"/>
-    <feGaussianBlur stdDeviation="12.5"/>
-    <feComposite in2="hardAlpha" operator="out"/>
-    <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0"/>
-    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_123_1383"/>
-    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_1383" result="shape"/>
-    </filter>
-    <linearGradient id="paint0_linear_123_1383" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
-    <stop stopOpacity="0"/>
-    <stop offset="1" stopColor="#05675E"/>
-    </linearGradient>
-    </defs>
+      <g filter="url(#filter0_d_123_1383)">
+        <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1383)" shapeRendering="crispEdges" />
+      </g>
+      <defs>
+        <filter id="filter0_d_123_1383" x="0.0128174" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+          <feOffset dy="21" />
+          <feGaussianBlur stdDeviation="12.5" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0" />
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_123_1383" />
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_1383" result="shape" />
+        </filter>
+        <linearGradient id="paint0_linear_123_1383" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
+          <stop stopOpacity="0" />
+          <stop offset="1" stopColor="#05675E" />
+        </linearGradient>
+      </defs>
     </svg>
-    
+
   )
 }
 export function FooterBottomElp() {
   return (
     <svg width="241" height="98" viewBox="0 0 241 98" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g filter="url(#filter0_d_123_1384)">
-    <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1384)" shapeRendering="crispEdges"/>
-    </g>
-    <defs>
-    <filter id="filter0_d_123_1384" x="0.0128784" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-    <feFlood floodOpacity="0" result="BackgroundImageFix"/>
-    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-    <feOffset dy="21"/>
-    <feGaussianBlur stdDeviation="12.5"/>
-    <feComposite in2="hardAlpha" operator="out"/>
-    <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0"/>
-    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_123_1384"/>
-    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_1384" result="shape"/>
-    </filter>
-    <linearGradient id="paint0_linear_123_1384" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
-    <stop stopOpacity="0"/>
-    <stop offset="1" stopColor="#05675E"/>
-    </linearGradient>
-    </defs>
+      <g filter="url(#filter0_d_123_1384)">
+        <circle cx="120.339" cy="99.3382" r="95.306" transform="rotate(-12.2351 120.339 99.3382)" fill="url(#paint0_linear_123_1384)" shapeRendering="crispEdges" />
+      </g>
+      <defs>
+        <filter id="filter0_d_123_1384" x="0.0128784" y="0.0126953" width="240.652" height="240.651" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+          <feOffset dy="21" />
+          <feGaussianBlur stdDeviation="12.5" />
+          <feComposite in2="hardAlpha" operator="out" />
+          <feColorMatrix type="matrix" values="0 0 0 0 0.0823529 0 0 0 0 1 0 0 0 0 0.917647 0 0 0 0.1 0" />
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_123_1384" />
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_1384" result="shape" />
+        </filter>
+        <linearGradient id="paint0_linear_123_1384" x1="71.3979" y1="28.5027" x2="162.84" y2="181.765" gradientUnits="userSpaceOnUse">
+          <stop stopOpacity="0" />
+          <stop offset="1" stopColor="#05675E" />
+        </linearGradient>
+      </defs>
     </svg>
-    
+
   )
 }
 export function SkillCourseImg2() {
