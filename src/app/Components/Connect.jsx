@@ -87,16 +87,16 @@ const Connect = () => {
                             />
                             <input className='border border-[#313131] rounded-[10px] p-[13px_10px] bg-transparent text-base placeholder:text-[#FFFFFF99] font-normal outline-none focus:border-[#15FFEA] text-[#15FFEA] w-full mb-5'
                                 type="text"
-                                name='phone'
+                                name="phone"
                                 placeholder='Phone Number'
                                 value={connectFormData.phone}
                                 onChange={onchangeConnectForm}
                                 required
                             />
-                            <input className='border border-[#313131] rounded-[10px] p-[13px_10px] bg-transparent text-base placeholder:text-[#FFFFFF99] font-normal outline-none focus:border-[#15FFEA] text-[#15FFEA] w-full'
+                            <input className="border border-[#313131] rounded-[10px] p-[13px_10px] bg-transparent text-base placeholder:text-[#FFFFFF99] font-normal outline-none focus:border-[#15FFEA] text-[#15FFEA] w-full"
                                 type="text"
-                                name='subject'
-                                placeholder='Subject'
+                                name="subject"
+                                placeholder="Subject"
                                 value={connectFormData.subject}
                                 onChange={onchangeConnectForm}
                                 required

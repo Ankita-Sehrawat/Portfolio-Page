@@ -81,12 +81,10 @@ const Hero = () => {
                 className="  min-[440px]:w-5/12 sm:w-3/12 flex  gap-[15px] items-center "
               >
                 <h1 className=" ff_roadRage text-5xl lg:text-[64px] font-normal text-[#FFFFFFCC] ">
-                  {" "}
-                  {item.numVal}{" "}
+                  {item.numVal}
                 </h1>
                 <p className="  text-sm lg:text-lg font-normal text-[#FFFFFFCC] ">
-                  {" "}
-                  {item.text}{" "}
+                  {item.text}
                 </p>
               </div>
             );
