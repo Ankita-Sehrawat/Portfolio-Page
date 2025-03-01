@@ -15,13 +15,13 @@ const Hero = () => {
   return (
     <div className="min-h-[calc(100vh-118px)] flex flex-col">
       <div className="container max-w-[1140px] 2xl:max-w-[1550px] mx-auto px-5  flex-grow flex flex-col justify-center">
-        <div className="flex flex-wrap items-center flex-col-reverse md:flex-row w-full">
-          <div className="w-full mt-4 md:mt-0 md:w-1/2 text-center sm:text-start ">
+        <div className="flex flex-wrap items-center flex-col-reverse lg:flex-row w-full">
+          <div className="w-full mt-4 lg:mt-0 lg:w-1/2 text-center sm:text-start ">
             <div>
               <p className="font-normal text-base md:text-xl text-white">
                 Front End Web Developer
               </p>
-              <h1 className="font-semibold text-4xl md:text-[54px] lg:text-7xl xl:text-[80px] text-white md:!leading-[50px] lg:!leading-[90px] mt-1">
+              <h1 className="font-semibold text-4xl md:text-6xl xl:text-7xl xl:text-[80px] text-white md:!leading-[60px] xl:!leading-[90px] mt-1">
                 Hello I am <span className="text-[#15FFEA]">Ankita Sehrawat</span>
               </h1>
               <p className="font-normal text-base md:text-lg text-white/80 pt-4 pb-10 md:py-[30px]">

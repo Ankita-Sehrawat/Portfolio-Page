@@ -9,7 +9,7 @@ const EduCard = () => {
                 Checkout the following details about my education:
             </p>
 
-            <div className='max-lg:h-[250px] h-[350px] overflow-y-scroll'>
+            <div className='max-lg:h-[350px] h-[350px] overflow-y-scroll'>
                 <div className='flex  '>
                     <div className='sm:w-6/12 ps-7 sm:px-[15px] relative roadmap_line sm:text-right '>
                         <div className='absolute top-[-5px] max-sm:left-[0px] -right-[10px] '><RoadmapDot /> </div>

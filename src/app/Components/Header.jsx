@@ -17,7 +17,7 @@ const Header = () => {
         <div className="pt-[34px] pb-9 flex items-center justify-between">
           <div className="md:w-3/12 min-[1130px]:w-2/12">
             <a className="text-xl sm:text-[32px] font-normal text-white " href="#">
-             Ankita
+              Ankita
             </a>
           </div>
           <div
@@ -71,9 +71,11 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <button className="text-base font-normal text-[#15FFEA] border border-[#15FFEA] p-[10px_20px] rounded-[50px]  duration-300 hover:duration-300 hover:bg-[#15FFEA] hover:text-black ">
+                <a
+                  onClick={() => setToggleMenu(false)}
+                  href="#contact" className="text-base font-normal text-[#15FFEA] border border-[#15FFEA] p-[10px_20px] rounded-[50px]  duration-300 hover:duration-300 hover:bg-[#15FFEA] hover:text-black ">
                   Hire me
-                </button>
+                </a>
               </li>
             </ol>
           </div>

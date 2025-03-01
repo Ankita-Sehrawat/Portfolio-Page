@@ -8,7 +8,7 @@ const AboutCard = () => {
                 I am a  Front-End Developer skilled  in HTML, CSS, JavaScript, and React.js, with a focus on creating user-friendly interfaces. Successfully collaborated with a team to boost user engagement and implemented dynamic web solutions.
             </p>
 
-            <div className='flex gap-6 flex-col lg:flex-row xl:justify-between  lg:py-5 max-lg:h-[250px] max-lg:overflow-y-scroll'>
+            <div className='flex gap-6 flex-col lg:flex-row xl:justify-between  lg:py-5 max-lg:h-[350px] max-lg:overflow-y-scroll'>
                 <div className='flex gap-5 min-[400px]:gap-20 lg:gap-5 sm:w-11/12 lg:w-5/12'>
                     <div className=' flex flex-col gap-[30px] '>
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Name</p>
@@ -16,7 +16,7 @@ const AboutCard = () => {
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Nationality</p>
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Freelance</p>
                     </div>
-                    <div className=' flex flex-col gap-[30px]'>
+                    <div className=' flex flex-col gap-[30px] max-sm:justify-between'>
                         <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Ankita </p>
                         <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>1 Year</p>
                         <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Indian</p>
@@ -31,7 +31,7 @@ const AboutCard = () => {
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Location</p>
                         <p className='text-white font-normal text-lg tracking-[2px]  '>Language</p>
                     </div>
-                    <div className='flex flex-col gap-[30px]'>
+                    <div className='flex flex-col gap-[30px] max-sm:justify-between'>
                         <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>+91 9350471322</p>
                         <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[1px]  '>sehrawatankita1@gmail.com</p>
                         <p className='text-[#15FFEA] text-base sm:text-xl font-medium tracking-[2px]  '>Hisar,Haryana</p>

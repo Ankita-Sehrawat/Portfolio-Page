@@ -15,8 +15,7 @@ const MyWork = () => {
         breakpoint: 1400,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
+          slidesToScroll: 2,
           dots: true,
         },
       },
@@ -25,7 +24,6 @@ const MyWork = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true,
           dots: true,
         },
       },

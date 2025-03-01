@@ -10,7 +10,7 @@ const SkillCard = () => {
         Skilled in HTML, CSS, JavaScript, and React.js,
         with a focus on creating user-friendly interfaces.
       </p>
-      <div className="flex flex-wrap -mx-[10px] max-lg:h-[250px] max-lg:overflow-y-scroll ">
+      <div className="flex flex-wrap -mx-[10px] max-lg:h-[350px] max-lg:overflow-y-scroll ">
         {SkillCardArr.map((items, i) => {
           return (
             <div

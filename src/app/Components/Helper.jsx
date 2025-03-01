@@ -1,4 +1,4 @@
-import { SkillCourseImg1, SkillCourseImg2, SkillCourseImg3, SkillCourseImg4, SkillCourseImg5, SkillCourseImg6, SkillCourseImg7, SkillCourseImg8, SkillCourseImg9, SkillCourseImg10 } from "./Icon";
+import { SkillCourseImg1, SkillCourseImg2, SkillCourseImg3, SkillCourseImg4, SkillCourseImg5, SkillCourseImg6, SkillCourseImg7, SkillCourseImg8, SkillCourseImg9, SkillCourseImg10, SkillCourseImg11 } from "./Icon";
 import firebaseImg from '../../../public/assets/images/png/firebaseImg.png'
 
 export const ServiceArr = [
@@ -42,15 +42,15 @@ export const ServiceArr = [
 
 export const HeroSecArr = [
   {
-    numVal: "1",
+    numVal: "1+",
     text: "Year experience",
   },
   {
-    numVal: "5",
+    numVal: "5+",
     text: "Projects Completed",
   },
   {
-    numVal: "8",
+    numVal: "10+",
     text: "Skills Masterd",
   },
 ];
@@ -73,7 +73,11 @@ export const SkillCardArr = [
   },
   {
     courseImg: <SkillCourseImg3 />,
-    courseName: "Javascript",
+    courseName: "JavaScript",
+  },
+  {
+    courseImg: <SkillCourseImg11 />,
+    courseName: "TypeScript",
   },
   {
     courseImg: <SkillCourseImg4 />,
@@ -83,17 +87,17 @@ export const SkillCardArr = [
   //   courseImg: <SkillCourseImg5 />,
   //   courseName: "Figma",
   // },
-  // {
-  //   courseImg: <SkillCourseImg6 />,
-  //   courseName: "Next. Js",
-  // },
+  {
+    courseImg: <SkillCourseImg6 />,
+    courseName: "Next.Js",
+  },
   // {
   //   courseImg: <SkillCourseImg7 />,
   //   courseName: "Node. Js",
   // },
   {
     courseImg: <SkillCourseImg8 />,
-    courseName: "Tailwind. Css",
+    courseName: "Tailwind.Css",
   },
   {
     courseImg: <SkillCourseImg10 />,
