@@ -42,7 +42,7 @@ export const ServiceArr = [
 
 export const HeroSecArr = [
   {
-    numVal: "1+",
+    numVal: "2",
     text: "Year experience",
   },
   {

@@ -35,7 +35,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="flex max-[420px]:flex-col gap-5 lg:gap-[29px] justify-center sm:justify-start  ">
-              <a href="/assets/cv/Ankita's-Resume.pdf" download='Ankita-Sehrawat-cv.pdf' className=" border border-[#15FFEA] p-[10px] min-[850px]:p-[10px_20px] flex items-center justify-center gap-1 min-[850px]:gap-[10px] rounded-[50px] max-sm:w-[200px] max-[460px]:m-auto duration-300 hover:duration-300 hover:bg-[#15FFEA]  group ">
+              <a href="/assets/cv/Ankita_Sehrawat_Frontend_Developer_Resume.pdf" download='Ankita_Sehrawat_Frontend_Developer_Resume.pdf' className=" border border-[#15FFEA] p-[10px] min-[850px]:p-[10px_20px] flex items-center justify-center gap-1 min-[850px]:gap-[10px] rounded-[50px] max-sm:w-[200px] max-[460px]:m-auto duration-300 hover:duration-300 hover:bg-[#15FFEA]  group ">
                 <p className="text-center uppercase text-[#15FFEA] text-sm min-[850px]:text-base group-hover:text-black ">
                   Download cv
                 </p>
