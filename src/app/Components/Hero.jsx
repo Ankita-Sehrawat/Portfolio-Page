@@ -47,7 +47,7 @@ const Hero = () => {
                     <GithubIcon />
                   </span>
                 </a>
-                <a target="_blank" href="https://www.linkedin.com/in/ankita-sehrawat-361574341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <a target="_blank" href="https://www.linkedin.com/in/ankita-sehrawat-profile/">
                   <span className="border border-[#15FFEA] rounded-[50px]  flex justify-center items-center w-10 h-10 duration-500 hover:-translate-y-3 hover:bg-[#15FFEA] socialHover ">
                     <LinkdinIcon />
                   </span>
@@ -66,7 +66,7 @@ const Hero = () => {
                 className=" w-full h-[490px] object-cover max-sm:object-center object-top m-auto "
                 src={ankita_img}
                 alt="img"
-                // priority={false}
+              // priority={false}
               />
             </div>
           </div>
