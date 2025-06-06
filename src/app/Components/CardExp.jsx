@@ -9,7 +9,7 @@ const CardExp = () => {
         My Experience
       </h1>
       <p className="text-xs sm:text-base  font-normal text-white/80  tracking-[3px] pb-5 lg:pb-11 ">
-       I have gained experience of almost a year as i have worked as a Front End Web Developer at Hexabirds Private Limited. 
+       I have gained experience of 2 year as i have worked as a Front End Web Developer at Hexabirds Private Limited. 
       </p>
       <div className="flex flex-wrap -mx-[10px] max-lg:h-[200px] max-lg:overflow-y-scroll ">
         {ExpCard.map((item, index) => {

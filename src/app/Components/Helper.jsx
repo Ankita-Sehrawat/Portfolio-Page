@@ -56,7 +56,7 @@ export const HeroSecArr = [
 ];
 export const ExpCard = [
   {
-    Year: "Jan 2024 - Now",
+    Year: "June 2023 - Now",
     course: "Front End Web Developer",
     company: "Hexabirds Pvt. Ltd",
   },
@@ -129,5 +129,10 @@ export const MyWorkCard = [
     projectTitle: "code biosis",
     projectLink: "https://codebiosis.com/",
     projectDetail: "CodeBiosis is a modern, professional website designed to showcase the brand's expertise in technology and innovation.The original website was created by another developer, and I enhanced its user interface to improve aesthetics and usability. My contributions focused on refining layout, updating color schemes, and optimizing typography for better readability. I restructured key components to ensure a more intuitive navigation experience across various devices. Additionally, I implemented subtle interactive elements that elevated user engagement without compromising performance. Overall, my UI enhancements helped modernize the site while maintaining the original vision and functionality of CodeBiosis."
+  },
+  {
+    projectTitle: "Nits Decor",
+    projectLink: "https://nitsdecor.netlify.app/",
+    projectDetail: "Nits Decor is a comprehensive platform that offers a wide range of interior design solutions. I played a key role in developing the front-end of the website using React.js, ensuring a seamless user experience. The site features an elegant design with intuitive navigation, allowing users to easily explore various home decor options. I implemented responsive design principles to ensure the site looks great on all devices. Additionally, I utilized Tailwind CSS to create a visually appealing layout that enhances the overall aesthetic of the site. The project showcases my ability to build functional and stylish web applications that meet user needs effectively.",
   },
 ]
